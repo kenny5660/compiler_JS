@@ -10,7 +10,7 @@
             "request": "launch",
             "program": "${file}",
             "console": "integratedTerminal"
-        }
+        },
         {
             "name": "Python: Run project",
             "type": "python",
@@ -18,5 +18,6 @@
             "program": "compiler_run.py",
             "console": "integratedTerminal"
         }
+
     ]
 }
