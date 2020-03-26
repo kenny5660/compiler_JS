@@ -1,2 +1,7 @@
 antlr4_js_parser/generate/*
 antlr4_js_parser/__pycache__/*
+*egg-info
+dist
+build
+.vscode
+*.pyc
