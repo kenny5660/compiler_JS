@@ -4,13 +4,16 @@ javaScript code compiler as Academic project
 INSTALLATION
 ------------
 Requires
+
       java runtime
       curl
 
 Run install commands:
+
       python setup.py install
 
 for only rebuild gramma g4 file run
+
       python rebuild_g4.py
 
 USAGE
