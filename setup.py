@@ -1,6 +1,8 @@
 from setuptools import setup, find_packages
 from os.path import join, dirname
 import compiler_js
+
+
 setup(
     name='compiler_js',
     version=compiler_js.__version__,
