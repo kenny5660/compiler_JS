@@ -1,5 +1,6 @@
 # compiler_JS
 javaScript code compiler as Academic project
+
 INSTALLATION
 ------------
 Run command:
@@ -8,6 +9,6 @@ Run command:
 
 USAGE
 ------------
-Compile file
+To run compiler:
 
       compiler_js path_to_js_file.js
