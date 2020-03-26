@@ -3,9 +3,11 @@ javaScript code compiler as Academic project
 
 INSTALLATION
 ------------
-Run command:
-
+Run install commands:
       python setup.py install
+
+for only rebuild gramma g4 file run
+      python rebuild_g4.py
 
 USAGE
 ------------

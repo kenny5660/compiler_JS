@@ -6,3 +6,4 @@ build
 .vscode
 *.pyc
 antlr.jar
+compiler_js/antlr4_ecmas/*
