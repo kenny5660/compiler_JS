@@ -8,6 +8,6 @@ Run command:
 
 USAGE
 ------------
-Compile file
+To run compiler:
 
       compiler_js path_to_js_file.js
