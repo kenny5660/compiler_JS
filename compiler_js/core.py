@@ -8,14 +8,11 @@ from compiler_js.antlr4_ecmas.ECMAScriptListener import ECMAScriptListener
 
 def parse_file(path):
     input_stream = antlr4.FileStream(path)
-    parse_js_stream(input_stream)
+    return parse_js_stream(input_stream)
 
 def parse_js_stream(input_stream):
     lexer = ECMAScriptLexer(input_stream)
-    token = lexer.nextToken()
-    token2 = lexer.nextToken()
     stream = antlr4.CommonTokenStream(lexer)
     parser = ECMAScriptParser(stream)
     tree = parser.program()
     return tree
-   # print(tree.toStringTree())

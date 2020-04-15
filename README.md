@@ -21,3 +21,9 @@ USAGE
 To run compiler:
 
       compiler_js path_to_js_file.js
+
+TESTS
+------------
+To run all tests:
+
+      python -m unittest discover -s test

@@ -1,18 +1,18 @@
-function quickSort (array) {
-    if (array.length <= 1) {
-      return array;
+function quickSort (array_arg) {
+    if (array_arg.length <= 1) {
+      return array_arg;
     } else {
-      var pivotIndex = Math.floor(array.length / 2);
-      var pivot = array[pivotIndex];
+      var pivotIndex = Math.floor(array_arg.length / 2);
+      var pivot = array_arg[pivotIndex];
       var less = [];
       var greater = [];
   
-      for (var i = 0; i < array.length; i++) {
+      for (var i = 0; i < array_arg.length; i++) {
         if (i === pivotIndex) continue;
-        if (array[i] <= pivot) {
-          less.push(array[i]);
+        if (array_arg[i] <= pivot) {
+          less.push(array_arg[i]);
         } else {
-          greater.push(array[i]);
+          greater.push(array_arg[i]);
         }
       }
       var result = [];

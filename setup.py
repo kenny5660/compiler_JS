@@ -11,7 +11,7 @@ setup(
     long_description=open(join(dirname(__file__), 'README.md')).read(),
     install_requires=[
             'antlr4-python3-runtime==4.8',
-            'ascii_tree @ git+https://github.com/spandanb/ascii_tree'
+            'tree-format @ git+https://github.com/jml/tree-format/tree/master'
         ],
     entry_points={
         'console_scripts':
