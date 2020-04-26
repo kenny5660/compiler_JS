@@ -32,6 +32,10 @@ To print ast tree:
 
       compiler_js .\test\test_js_files\quickSort.js --print_ast
 
+Print to file with operator '>' have problems in windows with unicode, but you can use '-o' argument for print to file.
+      compiler_js .\test\test_js_files\quickSort.js --print_ast -o ast.txt
+
+
 TESTS
 ------------
 To run all tests:
