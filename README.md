@@ -18,9 +18,19 @@ for only rebuild gramma g4 file run
 
 USAGE
 ------------
-To run compiler:
+      usage: compiler_js [-h] [--print_ast] [-o O] inpath
+      Compile js file.
+      positional arguments:
+        inpath       Input path to js file.
 
-      compiler_js path_to_js_file.js
+      optional arguments:
+        -h, --help   show this help message and exit
+        --print_ast  Print to stdout ast tree, if set -o argument then print ot file
+        -o O         output file name
+
+To print ast tree:
+
+      compiler_js .\test\test_js_files\quickSort.js --print_ast
 
 TESTS
 ------------
