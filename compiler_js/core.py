@@ -12,7 +12,9 @@ def parse_file(path):
 
 def parse_js_stream(input_stream):
     lexer = ECMAScriptLexer(input_stream)
+    lexer.removeErrorListeners()
     stream = antlr4.CommonTokenStream(lexer)
     parser = ECMAScriptParser(stream)
+    parser.removeErrorListeners(); 
     tree = parser.program()
     return tree
