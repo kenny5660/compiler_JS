@@ -1,0 +1,8 @@
+ProgramContext(  ;  )
+├── SourceElementsContext(  ;  )
+│   └── SourceElementContext(  ;  )
+│       └── StatementContext(  ;  )
+│           └── EmptyStatementContext(  ;  )
+│               └── TerminalNode(  ;  )
+└── TerminalNode(  <EOF>  )
+

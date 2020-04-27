@@ -1,0 +1,9 @@
+ProgramContext(  {  )
+├── SourceElementsContext(  {  )
+│   └── SourceElementContext(  {  )
+│       └── StatementContext(  {  )
+│           └── BlockContext(  {  )
+│               ├── TerminalNode(  {  )
+│               └── TerminalNode(  }  )
+└── TerminalNode(  <EOF>  )
+

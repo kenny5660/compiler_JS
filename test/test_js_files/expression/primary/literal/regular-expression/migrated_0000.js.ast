@@ -1,0 +1,13 @@
+ProgramContext(  /p/  )
+├── SourceElementsContext(  /p/  )
+│   └── SourceElementContext(  /p/  )
+│       └── StatementContext(  /p/  )
+│           └── ExpressionStatementContext(  /p/  )
+│               ├── ExpressionSequenceContext(  /p/  )
+│               │   └── LiteralExpressionContext(  /p/  )
+│               │       └── LiteralContext(  /p/  )
+│               │           └── TerminalNode(  /p/  )
+│               └── EosContext(  ;  )
+│                   └── TerminalNode(  ;  )
+└── TerminalNode(  <EOF>  )
+

@@ -11,7 +11,7 @@ setup(
     long_description=open(join(dirname(__file__), 'README.md')).read(),
     install_requires=[
             'antlr4-python3-runtime==4.8',
-            'tree-format @ git+https://github.com/jml/tree-format/tree/master'
+            'tree-format==0.1.2'
         ],
     entry_points={
         'console_scripts':

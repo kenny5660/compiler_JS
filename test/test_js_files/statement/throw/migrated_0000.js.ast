@@ -1,0 +1,13 @@
+ProgramContext(  throw  )
+├── SourceElementsContext(  throw  )
+│   └── SourceElementContext(  throw  )
+│       └── StatementContext(  throw  )
+│           └── ThrowStatementContext(  throw  )
+│               ├── TerminalNode(  throw  )
+│               ├── ExpressionSequenceContext(  x  )
+│               │   └── IdentifierExpressionContext(  x  )
+│               │       └── TerminalNode(  x  )
+│               └── EosContext(  ;  )
+│                   └── TerminalNode(  ;  )
+└── TerminalNode(  <EOF>  )
+

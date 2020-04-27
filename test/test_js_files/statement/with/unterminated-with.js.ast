@@ -1,0 +1,12 @@
+ProgramContext(  with  )
+├── SourceElementsContext(  with  )
+│   └── SourceElementContext(  with  )
+│       └── StatementContext(  with  )
+│           └── WithStatementContext(  with  )
+│               ├── TerminalNode(  with  )
+│               ├── TerminalNode(  (  )
+│               └── ExpressionSequenceContext(  x  )
+│                   └── IdentifierExpressionContext(  x  )
+│                       └── TerminalNode(  x  )
+└── TerminalNode(  <EOF>  )
+

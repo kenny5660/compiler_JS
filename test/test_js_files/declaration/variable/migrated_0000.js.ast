@@ -1,0 +1,13 @@
+ProgramContext(  var  )
+├── SourceElementsContext(  var  )
+│   └── SourceElementContext(  var  )
+│       └── StatementContext(  var  )
+│           └── VariableStatementContext(  var  )
+│               ├── TerminalNode(  var  )
+│               ├── VariableDeclarationListContext(  x  )
+│               │   └── VariableDeclarationContext(  x  )
+│               │       └── TerminalNode(  x  )
+│               └── EosContext(  <EOF>  )
+│                   └── TerminalNode(  <EOF>  )
+└── TerminalNode(  <EOF>  )
+

@@ -1,0 +1,13 @@
+ProgramContext(  function  )
+├── SourceElementsContext(  function  )
+│   └── SourceElementContext(  function  )
+│       └── FunctionDeclarationContext(  function  )
+│           ├── TerminalNode(  function  )
+│           ├── TerminalNode(  eval  )
+│           ├── TerminalNode(  (  )
+│           ├── TerminalNode(  )  )
+│           ├── TerminalNode(  {  )
+│           ├── FunctionBodyContext(  }  )
+│           └── TerminalNode(  }  )
+└── TerminalNode(  <EOF>  )
+

@@ -1,0 +1,12 @@
+ProgramContext(  this  )
+├── SourceElementsContext(  this  )
+│   └── SourceElementContext(  this  )
+│       └── StatementContext(  this  )
+│           └── ExpressionStatementContext(  this  )
+│               ├── ExpressionSequenceContext(  this  )
+│               │   └── ThisExpressionContext(  this  )
+│               │       └── TerminalNode(  this  )
+│               └── EosContext(  <EOF>  )
+│                   └── TerminalNode(  <EOF>  )
+└── TerminalNode(  <EOF>  )
+

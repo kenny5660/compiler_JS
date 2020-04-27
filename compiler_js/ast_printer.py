@@ -27,5 +27,8 @@ def print_tree_to_file(root, path):
     f.close()
     sys.stdout = orig_stdout
 
+def tree_to_str(root):
+    return format_tree(root,format_node=get_val, get_children=get_children)
+
 def print_tree(root):
-        print(format_tree(root,format_node=get_val, get_children=get_children))
+        print(tree_to_str(root))
