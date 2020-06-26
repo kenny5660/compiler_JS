@@ -1,27 +1,20 @@
 ProgramContext(  '\
 '  )
-├── SourceElementsContext(  '\⏎
-│   '  )
-│   └── SourceElementContext(  '\⏎
-│       '  )
-│       └── StatementContext(  '\⏎
-│           '  )
-│           └── ExpressionStatementContext(  '\⏎
-│               '  )
-│               ├── ExpressionSequenceContext(  '\⏎
-│               │   '  )
-│               │   └── AdditiveExpressionContext(  '\⏎
-│               │       '  )
-│               │       ├── LiteralExpressionContext(  '\⏎
-│               │       │   '  )
-│               │       │   └── LiteralContext(  '\⏎
-│               │       │       '  )
-│               │       │       └── TerminalNode(  '\⏎
-│               │       │           '  )
-│               │       ├── TerminalNode(  +  )
-│               │       └── IdentifierExpressionContext(  bar  )
-│               │           └── TerminalNode(  bar  )
-│               └── EosContext(  <EOF>  )
-│                   └── TerminalNode(  <EOF>  )
-└── TerminalNode(  <EOF>  )
-
+└── SourceElementsContext(  '\⏎
+    '  )
+    └── SourceElementContext(  '\⏎
+        '  )
+        └── StatementContext(  '\⏎
+            '  )
+            └── ExpressionStatementContext(  '\⏎
+                '  )
+                ├── ExpressionSequenceContext(  '\⏎
+                │   '  )
+                │   └── AdditiveExpressionContext(  '\⏎
+                │       '  )
+                │       ├── LiteralExpressionContext(  '\⏎
+                │       │   '  )
+                │       │   └── LiteralContext(  '\⏎
+                │       │       '  )
+                │       └── IdentifierExpressionContext(  bar  )
+                └── EosContext(  <EOF>  )

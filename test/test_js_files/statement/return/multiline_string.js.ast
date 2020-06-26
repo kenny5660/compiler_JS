@@ -1,28 +1,16 @@
 ProgramContext(  function  )
-├── SourceElementsContext(  function  )
-│   └── SourceElementContext(  function  )
-│       └── FunctionDeclarationContext(  function  )
-│           ├── TerminalNode(  function  )
-│           ├── TerminalNode(  a  )
-│           ├── TerminalNode(  (  )
-│           ├── TerminalNode(  )  )
-│           ├── TerminalNode(  {  )
-│           ├── FunctionBodyContext(  return  )
-│           │   └── SourceElementsContext(  return  )
-│           │       └── SourceElementContext(  return  )
-│           │           └── StatementContext(  return  )
-│           │               └── ReturnStatementContext(  return  )
-│           │                   ├── TerminalNode(  return  )
-│           │                   ├── ExpressionSequenceContext(  'hello \⏎
-│           │                   │     	world'  )
-│           │                   │   └── LiteralExpressionContext(  'hello \⏎
-│           │                   │         	world'  )
-│           │                   │       └── LiteralContext(  'hello \⏎
-│           │                   │             	world'  )
-│           │                   │           └── TerminalNode(  'hello \⏎
-│           │                   │                 	world'  )
-│           │                   └── EosContext(  ;  )
-│           │                       └── TerminalNode(  ;  )
-│           └── TerminalNode(  }  )
-└── TerminalNode(  <EOF>  )
-
+└── SourceElementsContext(  function  )
+    └── SourceElementContext(  function  )
+        └── FunctionDeclarationContext(  function  )
+            └── FunctionBodyContext(  return  )
+                └── SourceElementsContext(  return  )
+                    └── SourceElementContext(  return  )
+                        └── StatementContext(  return  )
+                            └── ReturnStatementContext(  return  )
+                                ├── ExpressionSequenceContext(  'hello \⏎
+                                │     	world'  )
+                                │   └── LiteralExpressionContext(  'hello \⏎
+                                │         	world'  )
+                                │       └── LiteralContext(  'hello \⏎
+                                │             	world'  )
+                                └── EosContext(  ;  )

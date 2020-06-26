@@ -8,7 +8,7 @@ class Test_TestAst(unittest.TestCase):
     def test_ast_quickSort_js(self):
         tree = compiler_js.core.parse_file('test\\test_js_files\\quickSort.js')
         ast_str = ast_printer.tree_to_str(tree).strip('\n')
-        ast_file = open('test\\test_js_files\\quickSort.js'+'.ast',encoding="utf-8")
+        ast_file = open('test\\test_js_files\\quickSort.js'+'.ast',encoding="utf-8",mode="r")
         ast_str_ref = ast_file.read().strip('\n')
         ast_file.close()
         self.assertEqual(ast_str,ast_str_ref)
@@ -18,15 +18,12 @@ class Test_TestAst(unittest.TestCase):
             for file in files:
                 if file[-3:] == '.js':
                     with self.subTest(dir=root,file=file):
-                        
                         tree = compiler_js.core.parse_file(root +'\\'+ file)
                         ast_str = ast_printer.tree_to_str(tree).strip('\n')
-                        ast_file  = open(root +'\\'+ file+'.ast',encoding="utf-8")
+                        ast_file  = open(root +'\\'+ file+'.ast',encoding="utf-8",mode="r")
                         ast_str_ref = ast_file.read().strip('\n')
                         ast_file.close()
                         self.assertEqual(ast_str,ast_str_ref)
-
-
     def test_declaration(self):
         dir_name = 'test/test_js_files/declaration'
         self.assert_ast_all_files_in_dir(dir_name)

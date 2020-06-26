@@ -16,7 +16,9 @@ def get_children(node):
     n = node.getChildCount()
     children = []
     for i in range(n):
-        children.append(node.getChild(i))
+        child = node.getChild(i)
+        if not isinstance(child,antlr4.TerminalNode):
+            children.append(child)
     return children
 
 def print_tree_to_file(root, path):

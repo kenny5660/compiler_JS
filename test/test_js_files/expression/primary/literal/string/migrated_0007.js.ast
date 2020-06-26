@@ -1,22 +1,17 @@
 ProgramContext(  "Hello\
 world"  )
-├── SourceElementsContext(  "Hello\⏎
-│   world"  )
-│   └── SourceElementContext(  "Hello\⏎
-│       world"  )
-│       └── StatementContext(  "Hello\⏎
-│           world"  )
-│           └── ExpressionStatementContext(  "Hello\⏎
-│               world"  )
-│               ├── ExpressionSequenceContext(  "Hello\⏎
-│               │   world"  )
-│               │   └── LiteralExpressionContext(  "Hello\⏎
-│               │       world"  )
-│               │       └── LiteralContext(  "Hello\⏎
-│               │           world"  )
-│               │           └── TerminalNode(  "Hello\⏎
-│               │               world"  )
-│               └── EosContext(  <EOF>  )
-│                   └── TerminalNode(  <EOF>  )
-└── TerminalNode(  <EOF>  )
-
+└── SourceElementsContext(  "Hello\⏎
+    world"  )
+    └── SourceElementContext(  "Hello\⏎
+        world"  )
+        └── StatementContext(  "Hello\⏎
+            world"  )
+            └── ExpressionStatementContext(  "Hello\⏎
+                world"  )
+                ├── ExpressionSequenceContext(  "Hello\⏎
+                │   world"  )
+                │   └── LiteralExpressionContext(  "Hello\⏎
+                │       world"  )
+                │       └── LiteralContext(  "Hello\⏎
+                │           world"  )
+                └── EosContext(  <EOF>  )
